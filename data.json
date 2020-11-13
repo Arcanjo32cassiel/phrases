@@ -1,0 +1,19 @@
+{
+  "phrases": [
+    {
+      "frase": "sdsd",
+      "autor": "sdsd",
+      "foto": "http://localhost:3000/phrases/addphrase"
+    },
+    {
+      "frase": "Melize é demais",
+      "autor": "sdsd",
+      "foto": "http://localhost:3000/phrases/addphrase"
+    },
+    {
+      "frase": "Lá vai",
+      "autor": "autor",
+      "foto": "https://www.youtube.com/watch?v=WUKbJfwjVBA"
+    }
+  ]
+}

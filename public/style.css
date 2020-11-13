@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+:root {
+    --primary-color: #F4F4F4;
+    --secundary-color: #3F57D3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-color)
+}
+
+header {
+    background-color: var(--secundary-color);
+    width: 100%;
+    padding: 32px;
+    text-align: center;
+    /* position: fixed; */
+}
+
+nav .links {
+    display: flex;
+    justify-content: center;
+}
+
+nav .links li+li {
+    margin-left: 32px;
+}
+
+nav .links li {
+    font-size: 22px;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: #3b3b3b;
+    position: relative;
+}
+
+nav .links li a.active {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+nav .links a:hover {
+    color: var(--primary-color);
+}
+
+nav .links li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+
+nav .links a:hover::after {
+    width: 100%;
+    transition: width 200ms ease-in-out;
+}
+
+
+/* phraseList */
+
+.phraseList {
+    padding: 1.5rem 1rem;
+}
+
+
+/* Card */
+
+.thought-card {
+    background-color: rgb(236, 233, 233);
+    width: 80%;
+    margin: 45px auto;
+    box-shadow: 0px 2px 6px -1px #6e5555;
+    /* Animation */
+    animation: up 200ms ease;
+}
+
+.thought-card .content {
+    padding: 10px;
+}
+
+.phrase,
+.author {
+    padding: 1rem;
+}
+
+.phrase {
+    font-size: 1.125rem;
+    line-height: 1.3;
+}
+
+.author {
+    font-size: .75rem;
+    font-weight: bold;
+}
+
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(15px)
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* editphrase */
+
+.createphrase {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+form {
+    background: #3174a0;
+    margin: 30px 4%;
+    border-radius: 15px;
+    /* width: 50%; */
+    box-shadow: 0px 2px 3px 2.5px rgba(0, 0, 0, 0.4);
+}
+
+.editphrase .item label {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    /* font-size: 18px; */
+    color: #000000;
+    padding: 3px 8px;
+}
+
+textarea {
+    font-size: 1.1em !important;
+    font-weight: bold;
+    overflow: hidden;
+    resize: vertical;
+    border-radius: 5px;
+    width: 100%;
+    overflow: auto;
+    margin-top: unset !important;
+    line-height: 1.238;
+    padding: 10px;
+}
+
+::placeholder {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=url] {
+    width: 100%;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    padding: 3px 10px;
+}
+
+button[type=submit] {
+    width: 50%;
+    border-radius: 8px;
+    background-color: #00ce71;
+    font-size: 16px;
+    color: white;
+    height: 40px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+    margin: 1rem 25% 0;
+    cursor: pointer;
+}
