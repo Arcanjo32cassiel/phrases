@@ -1,23 +1,22 @@
 {
-  "phrases": [
-    {
-      "phrase": "dsds",
-      "author": "sd",
-      "photograph": "http://localhost:3002/phrases/addphrase",
-      "id": 1
-    },
-    "sdsds",
-    "dsds",
-    "https://www.youtube.com/watch?v=_9tWo888nuE",
-    {
-      "phrase": "sdsds",
-      "author": "dsds",
-      "photograph": "https://www.youtube.com/watch?v=_9tWo888nuE"
-    },
-    {
-      "phrase": "sdsds",
-      "author": "dsds",
-      "photograph": "https://www.youtube.com/watch?v=_9tWo888nuE"
-    }
-  ]
+    "phrases": [{
+            "phrase": "dsds",
+            "author": "sd",
+            "photograph": "http://localhost:3002/phrases/addphrase",
+            "id": 1
+        },
+        "sdsds",
+        "dsds",
+        "https://www.youtube.com/watch?v=_9tWo888nuE",
+        {
+            "phrase": "sdsds",
+            "author": "dsds",
+            "photograph": "https://www.youtube.com/watch?v=_9tWo888nuE"
+        },
+        {
+            "phrase": "sdsds",
+            "author": "dsds",
+            "photograph": "https://www.youtube.com/watch?v=_9tWo888nuE"
+        }
+    ]
 }
