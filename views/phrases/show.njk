@@ -3,10 +3,13 @@
 {% block  content %}
 <div class="phraseList">
 <div class="thought-card">
-
     <div class="content">
         <p class="phrase">{{phrase.phrase}}</p>
-        <span class="author">{{phrase.author}}</span>
+        <div class="content_child">
+         <span class="author">{{phrase.author}}</span>
+         <span class="posted_in">{{phrase.posted_in}}</span>
+        </div>
+        
     </div>
     
 </div>

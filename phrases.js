@@ -25,13 +25,15 @@ exports.post = function(req, res) {
     //  data processing
     let { phrase, author, photograph } = req.body
 
+    const posted_in = Date.now()
     const id = Number(data.phrases.length + 1)
         // deconstruction
     data.phrases.push({
         id,
         phrase,
         author,
-        photograph
+        photograph,
+        posted_in
     })
 
     fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err) {

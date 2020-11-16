@@ -91,6 +91,13 @@ nav .links a:hover::after {
     padding: 10px;
 }
 
+.thought-card .content .content_child {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .phrase,
 .author {
     padding: 1rem;
