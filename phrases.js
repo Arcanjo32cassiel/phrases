@@ -1,7 +1,18 @@
 const fs = require('fs');
 const data = require('./data.json')
+    // show
+exports.show = function(req, res) {
+        // req.params.id=/:id
+        const { id } = req.params;
 
-// create
+        const foundphrase = data.phrases.find(function(phrase) {
+            return phrase.id == id
+        })
+        if (!foundphrase) return res.send("phrase not found")
+
+        return res.send(foundphrase)
+    }
+    // create
 exports.post = function(req, res) {
     const keys = Object.keys(req.body)
 
@@ -14,9 +25,10 @@ exports.post = function(req, res) {
     //  data processing
     let { phrase, author, photograph } = req.body
 
-    req.body.id = Number(data.phrases.length + 1)
+    const id = Number(data.phrases.length + 1)
         // deconstruction
     data.phrases.push({
+        id,
         phrase,
         author,
         photograph

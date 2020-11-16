@@ -12,7 +12,7 @@ routes.get('/phrases', function(req, res) {
 routes.get('/phrases/addphrase', function(req, res) {
     return res.render('phrases/addphrase')
 })
-
+routes.get('/phrases/:id', phrase.show)
 routes.post("/phrases", phrase.post)
 
 module.exports = routes
