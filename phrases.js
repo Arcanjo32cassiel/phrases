@@ -10,7 +10,7 @@ exports.show = function(req, res) {
         })
         if (!foundphrase) return res.send("phrase not found")
 
-        return res.send(foundphrase)
+        return res.render("phrases/show", { phrase: foundphrase })
     }
     // create
 exports.post = function(req, res) {
