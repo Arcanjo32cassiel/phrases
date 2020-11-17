@@ -18,6 +18,13 @@
       "author": "Fernando Pessoa",
       "photograph": "http://localhost:3000/phrases/addphrase",
       "posted_in": 1605544517551
+    },
+    {
+      "id": 4,
+      "phrase": "dfdgfffffffffffffffffffffffffffffff",
+      "author": "fgfgfgfgfgfg  fgfgf rfgf",
+      "photograph": "http://localhost:3002/phrases/addphrase",
+      "posted_in": 1605585883400
     }
   ]
 }

@@ -10,7 +10,12 @@ exports.show = function(req, res) {
         })
         if (!foundphrase) return res.send("phrase not found")
 
-        return res.render("phrases/show", { phrase: foundphrase })
+        const phrase = {
+            ...foundphrase,
+            "posted_in": new Intl.DateTimeFormat('pt-BR').format(foundphrase.posted_in)
+
+        }
+        return res.render("phrases/show", { phrase })
     }
     // create
 exports.post = function(req, res) {
