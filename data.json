@@ -1,30 +1,11 @@
 {
   "phrases": [
     {
-      "phrase": "dsds",
-      "author": "sd",
-      "photograph": "http://localhost:3002/phrases/addphrase",
-      "id": 1
-    },
-    {
-      "id": 7,
-      "phrase": "sdsds",
-      "author": "dsds",
-      "photograph": "https://www.youtube.com/watch?v=_9tWo888nuE"
-    },
-    {
-      "id": 3,
-      "phrase": "Amo como ama o amor. Não conheço nenhuma outra razão para amar senão amar. Que queres que te diga, além de que te amo, se o que quero dizer-te é que te amo?",
-      "author": "Fernando Pessoa",
+      "id": 1,
+      "phrase": "Com organização e tempo, acha-se o segredo de fazer tudo e bem feito.",
+      "author": "Pitágoras ",
       "photograph": "http://localhost:3000/phrases/addphrase",
-      "posted_in": 1605544517551
-    },
-    {
-      "id": 4,
-      "phrase": "dfdgfffffffffffffffffffffffffffffff",
-      "author": "fgfgfgfgfgfg  fgfgf rfgf",
-      "photograph": "http://localhost:3002/phrases/addphrase",
-      "posted_in": 1605585883400
+      "posted_in": 1605705414088
     }
   ]
 }

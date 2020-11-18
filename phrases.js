@@ -49,3 +49,19 @@ exports.post = function(req, res) {
 
     // return res.send(req.body)
 }
+
+// edit
+exports.edit = function(req, res) {
+    const { id } = req.params;
+
+    const foundphrase = data.phrases.find(function(phrase) {
+        return phrase.id == id
+    })
+    if (!foundphrase) return res.send("phrase not found")
+
+    // const phrase={
+    //     ...foundphrase,
+
+    // }
+    return res.render('phrases/edit', { phrazse: foundphrase })
+}

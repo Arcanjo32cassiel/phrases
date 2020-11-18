@@ -1,6 +1,6 @@
 const express = require('express')
 const routes = express.Router()
-const phrase = require('./phrases')
+const phrases = require('./phrases')
 
 routes.get('/', function(req, res) {
     return res.redirect("/phrases")
@@ -12,7 +12,8 @@ routes.get('/phrases', function(req, res) {
 routes.get('/phrases/addphrase', function(req, res) {
     return res.render('phrases/addphrase')
 })
-routes.get('/phrases/:id', phrase.show)
-routes.post("/phrases", phrase.post)
+routes.get('/phrases/:id/edit', phrases.edit)
+routes.get('/phrases/:id', phrases.show)
+routes.post("/phrases", phrases.post)
 
 module.exports = routes
