@@ -1,11 +1,17 @@
 {
-  "phrases": [
-    {
-      "id": 1,
-      "phrase": "Com organização e tempo, acha-se o segredo de fazer tudo e bem feito.",
-      "author": "Pitágoras ",
-      "photograph": "http://localhost:3000/phrases/addphrase",
-      "posted_in": 1605705414088
-    }
-  ]
+    "phrases": [{
+            "id": 1,
+            "phrase": "Com organização e tempo, acha-se o segredo de fazer tudo e bem feito.",
+            "author": "Pitágoras ",
+            "photograph": "http://localhost:3000/phrases/addphrase",
+            "posted_in": 1605705414088
+        },
+        {
+            "id": 2,
+            "phrase": "fdfd",
+            "author": "Pitágoras ",
+            "photograph": "http://localhost:3000/phrases/addphrase",
+            "posted_in": 1605708265527
+        }
+    ]
 }

@@ -59,9 +59,9 @@ exports.edit = function(req, res) {
     })
     if (!foundphrase) return res.send("phrase not found")
 
-    // const phrase={
-    //     ...foundphrase,
+    const phrase = {
+        ...foundphrase,
 
-    // }
-    return res.render('phrases/edit', { phrazse: foundphrase })
+    }
+    return res.render('phrases/edit', { phrase })
 }
