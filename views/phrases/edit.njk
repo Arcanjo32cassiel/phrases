@@ -4,10 +4,12 @@
 
 {# Primeiro Modelo #}
 <div class="createphrase">
-<form class="phrase"  method="POST" action="/phrases">
+<form class="phrase"  method="POST" action="/phrases?_method=PUT">
 <section class="editphrase">
 
      {%include "phrases/fields.njk"%}
+
+     <input type="hidden" name="id" value="{{phrase.id}}">
 
 <button type="submit">Salvar</button>
 </section>

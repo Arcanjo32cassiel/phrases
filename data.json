@@ -1,17 +1,18 @@
 {
-    "phrases": [{
-            "id": 1,
-            "phrase": "Com organização e tempo, acha-se o segredo de fazer tudo e bem feito.",
-            "author": "Pitágoras ",
-            "photograph": "http://localhost:3000/phrases/addphrase",
-            "posted_in": 1605705414088
-        },
-        {
-            "id": 2,
-            "phrase": "fdfd",
-            "author": "Pitágoras ",
-            "photograph": "http://localhost:3000/phrases/addphrase",
-            "posted_in": 1605708265527
-        }
-    ]
+  "phrases": [
+    {
+      "id": "1",
+      "phrase": "Com organização e tempo, acha-se o segredo de fazer tudo e bem feito. Vai dá certo. Eduquem as crianças, para que não seja necessário punir os adultos. Purifica o teu coração antes de permitires que o amor entre nele, pois até o mel mais doce azeda num recipiente sujo.",
+      "author": "Pitágoras ",
+      "photograph": "http://localhost:3000/phrases/addphrase",
+      "posted_in": 1605705414088
+    },
+    {
+      "id": "2",
+      "phrase": "O homem é mortal por seus temores e imortal por seus desejos.",
+      "author": "Pitágoras ",
+      "photograph": "http://localhost:3000/phrases/addphrase",
+      "posted_in": 1605708265527
+    }
+  ]
 }

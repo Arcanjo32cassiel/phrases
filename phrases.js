@@ -68,16 +68,21 @@ exports.edit = function(req, res) {
 
 // PUT
 
-exportes.put = function(req, res) {
+exports.put = function(req, res) {
     const { id } = req.body;
     let index = 0;
     const foundphrase = data.phrases.find(function(phrase, foundindex) {
-        if (id = phrase.id) {
+        if (id == phrase.id) {
             index = foundindex
             return true
         }
 
     })
+    const phrase = {
+        ...foundphrase,
+        ...req.body,
+
+    }
     if (!foundphrase) return res.send("phrase not found")
 
     data.phrases[index] = phrase
