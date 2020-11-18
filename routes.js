@@ -15,5 +15,6 @@ routes.get('/phrases/addphrase', function(req, res) {
 routes.get('/phrases/:id/edit', phrases.edit)
 routes.get('/phrases/:id', phrases.show)
 routes.post("/phrases", phrases.post)
+routes.put('/phrases', phrases.put)
 
 module.exports = routes

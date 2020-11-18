@@ -65,3 +65,28 @@ exports.edit = function(req, res) {
     }
     return res.render('phrases/edit', { phrase })
 }
+
+// PUT
+
+exportes.put = function(req, res) {
+    const { id } = req.body;
+    let index = 0;
+    const foundphrase = data.phrases.find(function(phrase, foundindex) {
+        if (id = phrase.id) {
+            index = foundindex
+            return true
+        }
+
+    })
+    if (!foundphrase) return res.send("phrase not found")
+
+    data.phrases[index] = phrase
+
+    fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err) {
+        if (err) return res.send('write error!')
+
+        return res.redirect(`/phrases/${id}`)
+    })
+
+
+}
