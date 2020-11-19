@@ -220,3 +220,26 @@ a.edit {
     margin: 1rem 25% 0;
     cursor: pointer;
 }
+
+.buttonadd {
+    width: 6.5rem;
+    background-color: #00ce71;
+    height: 2.5rem;
+    margin: 1rem 2rem;
+    /* position: absolute; */
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.buttonadd:hover {
+    background-color: #26b977;
+}
+
+.buttonadd a {
+    color: white;
+    text-decoration: none;
+}
