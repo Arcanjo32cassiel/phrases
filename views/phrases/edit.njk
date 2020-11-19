@@ -1,27 +1,23 @@
+
 {% extends "layout.njk" %}
 
 {% block  content %}
 
 {# Primeiro Modelo #}
-<div><a href="">ADD PHRASE</a></div>
-
-<div class="createphrase ">
-<div class="phrase">
+<div class="createphrase">
      <section class="editphrase">
-          <div class="phrase">
-               <form  class=""  method="POST" action="/phrases?_method=PUT">
-                    {%include "phrases/fields.njk"%}
-                    <input type="hidden" name="id" value="{{phrase.id}}">
-               </form>
 
-               <form class="phrasedelete" id="form-delete" action="/phrases?_method=DELETE" method="post">
-                    <input type="hidden" name="id" value="{{phrases.id}}" />
+          <form class="phrase phraseform"  method="POST" action="/phrases?_method=PUT">
+               {%include "phrases/fields.njk"%}
+               <input type="hidden" name="id" value="{{phrase.id}}">
+          </form>
+
+          <form class="phrasedelete" id="form-delete" action="/phrases?_method=DELETE" method="post">
+                    <input type="hidden" name="id" value="{{phrase.id}}" />
                     <button type="submit">Deletar</button>
-               </form>
-          </div>
-     </section>
+          </form>
 
-</div>
+</section>
 </div>
 {# Segundo Modelo #}
 {% endblock  content %}

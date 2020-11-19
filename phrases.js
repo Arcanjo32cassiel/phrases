@@ -1,11 +1,11 @@
 const fs = require('fs');
 const data = require('./data.json')
     // show
-exports.show = function(req, res) {
+exports.show = (req, res) => {
         // req.params.id=/:id
         const { id } = req.params;
 
-        const foundphrase = data.phrases.find(function(phrase) {
+        const foundphrase = data.phrases.find((phrase) => {
             return phrase.id == id
         })
         if (!foundphrase) return res.send("phrase not found")
@@ -18,7 +18,7 @@ exports.show = function(req, res) {
         return res.render("phrases/show", { phrase })
     }
     // create
-exports.post = function(req, res) {
+exports.post = (req, res) => {
     const keys = Object.keys(req.body)
 
     // validate
@@ -51,27 +51,25 @@ exports.post = function(req, res) {
 }
 
 // edit
-exports.edit = function(req, res) {
+exports.edit = (req, res) => {
     const { id } = req.params;
 
-    const foundphrase = data.phrases.find(function(phrase) {
+    const foundphrase = data.phrases.find((phrase) => {
         return phrase.id == id
     })
     if (!foundphrase) return res.send("phrase not found")
 
     const phrase = {
         ...foundphrase,
-
     }
     return res.render('phrases/edit', { phrase })
 }
 
 // PUT
-
-exports.put = function(req, res) {
+exports.put = (req, res) => {
     const { id } = req.body;
     let index = 0;
-    const foundphrase = data.phrases.find(function(phrase, foundindex) {
+    const foundphrase = data.phrases.find((phrase, foundindex) => {
         if (id == phrase.id) {
             index = foundindex
             return true
@@ -87,11 +85,27 @@ exports.put = function(req, res) {
 
     data.phrases[index] = phrase
 
-    fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err) {
+    fs.writeFile("data.json", JSON.stringify(data, null, 2), (err) => {
         if (err) return res.send('write error!')
 
         return res.redirect(`/phrases/${id}`)
     })
 
+}
 
+// delete
+exports.delete = (req, res) => {
+    const { id } = req.body
+
+    const filteredPhrases = data.phrases.filter(phrase => {
+
+        return phrase.id != id
+    })
+
+    data.phrases = filteredPhrases
+    fs.writeFile('data.json', JSON.stringify(data, null, 2), err => {
+        if (err) return res.send('write file error!')
+
+        return res.redirect('/phrases')
+    })
 }
