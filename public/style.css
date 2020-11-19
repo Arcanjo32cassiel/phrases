@@ -133,11 +133,16 @@ nav .links a:hover::after {
     justify-content: center;
 }
 
-form {
+.phrase {
     background: #3174a0;
     margin: 30px 4%;
     border-radius: 15px;
-    /* width: 50%; */
+    box-shadow: 0px 2px 3px 2.5px rgba(0, 0, 0, 0.4);
+}
+
+.phrasedelete button[type=submit] {
+    background: #d30808;
+    border-radius: 15px;
     box-shadow: 0px 2px 3px 2.5px rgba(0, 0, 0, 0.4);
 }
 
