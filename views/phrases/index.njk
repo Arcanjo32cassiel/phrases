@@ -1,28 +1,21 @@
 {% extends "layout.njk" %}
 
 {% block  content %}
-<div class="buttonadd">
-<a href="addphrase">ADD PHRASE</a>
-</div>
-<div class="phraseList">
-<div class="thought-card">
-    <div class="content">
-        <p class="phrase">Mollit sunt fugiat ad ad nisi fugiat deserunt consequat consequat id sunt amet. Cupidatat id incididunt laborum deserunt velit. Ipsum ipsum non magna consequat deserunt nisi enim.</p>
-        
-        <div class="content_child">
-        <span class="author">Lorem Ipsum</span> <span class="posted_in">123444</span>
-        </div>
-    </div>
-</div>
 
+<a class="buttonadd" href="/phrase/addphrase">ADD PHRASE</a>
+
+<div class="phraseList">
+{%for phrase in phrases%}
 <div class="thought-card">
     <div class="content">
-        <p class="phrase">Mollit sunt fugiat ad ad nisi fugiat deserunt consequat consequat id sunt amet. Cupidatat id incididunt laborum deserunt velit. Ipsum ipsum non magna consequat deserunt nisi enim.</p>
+        <p class="phrase">{{phrase.phrase}}</p>
         
         <div class="content_child">
-        <span class="author">Lorem Ipsum</span> <span class="posted_in">123444</span>
+        <span class="author">{{phrase.author}}</span> <span class="posted_in">{{phrase.posted_in}}</span>
         </div>
     </div>
 </div>
+    {%endfor%}
+
 </div>
 {% endblock  content %}

@@ -1,6 +1,24 @@
 const fs = require('fs');
 const data = require('./data.json')
-    // show
+
+// index
+exports.index = (req, res) => {
+
+
+    // const prases = data.phrases
+    const phrases = {
+        ...data.phrases,
+        "posted_in": new Intl.DateTimeFormat('pt-BR').format(data.phrases.posted_in)
+
+
+    }
+    return res.render('phrases/index', { phrases: data.phrases })
+        //     return res.render("phrases/index", { phrases })
+}
+
+
+
+// show
 exports.show = (req, res) => {
         // req.params.id=/:id
         const { id } = req.params;
