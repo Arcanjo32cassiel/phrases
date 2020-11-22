@@ -13,9 +13,9 @@
       "posted_in": 1605813663813
     },
     {
-      "id": 3,
+      "id": "3",
       "phrase": "Adão, o primeiro espoliado - e no próprio corpo.",
-      "author": "Carlos Drumond",
+      "author": "Carlos Drummond",
       "posted_in": 1605813988658
     },
     {
@@ -23,6 +23,12 @@
       "phrase": "O amor não se vê com os olhos mas com o coração.",
       "author": "William Shakespeare",
       "posted_in": 1605876797829
+    },
+    {
+      "id": 5,
+      "phrase": "Aquilo que se faz por amor está sempre além do bem e do mal.",
+      "author": "Friedrich Nietzsche",
+      "posted_in": 1605892495820
     }
   ]
 }
