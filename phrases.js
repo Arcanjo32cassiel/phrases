@@ -36,7 +36,7 @@ exports.post = (req, res) => {
         }
     }
     //  data processing
-    let { phrase, author, keyword } = req.body
+    let { phrase, author, photograph } = req.body
 
     const posted_in = Date.now()
     const id = Number(data.phrases.length + 1)
@@ -45,7 +45,7 @@ exports.post = (req, res) => {
         id,
         phrase,
         author,
-        keyword,
+        photograph,
         posted_in
     })
 

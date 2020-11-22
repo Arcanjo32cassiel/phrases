@@ -6,10 +6,13 @@ routes.get('/', function(req, res) {
     return res.redirect("/phrases")
 })
 
-routes.get('/phrases', phrases.index)
 routes.get('/phrases/addphrase', function(req, res) {
     return res.render('phrases/addphrase')
 })
+routes.get('/phrases/phraseimage', function(req, res) {
+    return res.render('phrases/phraseimage')
+})
+routes.get('/phrases', phrases.index)
 routes.get('/phrases/:id/edit', phrases.edit)
 routes.get('/phrases/:id', phrases.show)
 routes.post("/phrases", phrases.post)

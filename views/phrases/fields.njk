@@ -14,11 +14,18 @@
     </div>
 
   <div class="item">
-   <label for="photograph">Palvras chaves</label>
+   <label for="keyword">Palvras chaves</label>
             
             <div>
                <input type="text" name="keyword" placeholder="Separe por virgula. Ex.: Amor, Paixão, Slidariedade" id="keyword" value="{{phrase.keyword}}">
             </div>
     </div>
+      <div class="item">
+       <label for="image_url">URL da imagem</label>
+      
+         <div>
+            <input type="url" name="image_url" placeholder="https://" id="image_url" value="{{phrase.image_url}}">
+         </div>
+      </div>
+      <button type="submit">Salvar</button>
 
-<button type="submit">Salvar</button>
