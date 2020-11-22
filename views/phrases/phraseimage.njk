@@ -8,16 +8,15 @@
 
 <div class="phraseList">
 <div class="thought-card">
+        <div class="phrase-image" style="background:url({{phrases.image_url}}) no-repeat center center/cover">
 
     <div class="content">
-        <div class="phrase-image" style="background:url({{phrase.image_url}}) no-repeat center center/cover">
-        <p class="phrase">{{phrase.phrase}}</p>
+        <p class="phrase">{{phrases.phrase}}</p>
 
         <div class="content_child">
-            <span class="author">{{phrase.author}}</span>
+            <span class="author">{{phrases.author}}</span>
 
-        <a class="edit" href="/phrases/{{phrase.id}}/edit" class="button">Editar</a>
-            <span class="posted_in">{{phrase.posted_in}}</span>
+            <span class="posted_in">{{phrases.posted_in}}</span>
         </div>
         </div>
 

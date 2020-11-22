@@ -1,35 +1,37 @@
 {
-    "phrases": [{
-            "id": "1",
-            "phrase": "Cada nova geração de computadores desmoraliza as antecedentes e seus criadores.",
-            "author": " Carlos Drummond de Andrade ",
-            "posted_in": 1605813371395,
-            "keyword": "geração"
-        },
-        {
-            "id": "2",
-            "phrase": "Enquanto a filosofia que declara uma raça superior e outra inferior não for finalmente e permanentemente desacreditada e abandonada; enquanto não deixarem de existir cidadãos de primeira e segunda categoria de qualquer nação; enquanto a cor da pele de uma pessoa for mais importante que a cor dos seus olhos; enquanto não forem garantidos a todos por igual os direitos humanos básicos, sem olhar a raças, até esse dia, os sonhos de paz duradoura, cidadania mundial e governo de uma moral internacional irão continuar a ser uma ilusão fugaz, a ser perseguida, mas nunca alcançada.",
-            "author": "Haile Selassie ",
-            "posted_in": 1605813663813,
-            "keyword": "filosofia, raça, perseguida"
-        },
-        {
-            "id": "3",
-            "phrase": "Adão, o primeiro espoliado - e no próprio corpo.",
-            "author": "Carlos Drummond",
-            "posted_in": 1605813988658
-        },
-        {
-            "id": 4,
-            "phrase": "O amor não se vê com os olhos mas com o coração.",
-            "author": "William Shakespeare",
-            "posted_in": 1605876797829
-        },
-        {
-            "id": 5,
-            "phrase": "Aquilo que se faz por amor está sempre além do bem e do mal.",
-            "author": "Friedrich Nietzsche",
-            "posted_in": 1605892495820
-        }
-    ]
+  "phrases": [
+    {
+      "id": "1",
+      "phrase": "Cada nova geração de computadores desmoraliza as antecedentes e seus criadores.",
+      "author": " Carlos Drummond de Andrade ",
+      "posted_in": 1605813371395,
+      "keyword": "geração",
+      "image_url": "https://images.unsplash.com/photo-1605947464626-cbb0f72ee82d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": "2",
+      "phrase": "Enquanto a filosofia que declara uma raça superior e outra inferior não for finalmente e permanentemente desacreditada e abandonada; enquanto não deixarem de existir cidadãos de primeira e segunda categoria de qualquer nação; enquanto a cor da pele de uma pessoa for mais importante que a cor dos seus olhos; enquanto não forem garantidos a todos por igual os direitos humanos básicos, sem olhar a raças, até esse dia, os sonhos de paz duradoura, cidadania mundial e governo de uma moral internacional irão continuar a ser uma ilusão fugaz, a ser perseguida, mas nunca alcançada.",
+      "author": "Haile Selassie ",
+      "posted_in": 1605813663813,
+      "keyword": "filosofia, raça, perseguida"
+    },
+    {
+      "id": "3",
+      "phrase": "Adão, o primeiro espoliado - e no próprio corpo.",
+      "author": "Carlos Drummond",
+      "posted_in": 1605813988658
+    },
+    {
+      "id": 4,
+      "phrase": "O amor não se vê com os olhos mas com o coração.",
+      "author": "William Shakespeare",
+      "posted_in": 1605876797829
+    },
+    {
+      "id": 5,
+      "phrase": "Aquilo que se faz por amor está sempre além do bem e do mal.",
+      "author": "Friedrich Nietzsche",
+      "posted_in": 1605892495820
+    }
+  ]
 }

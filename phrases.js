@@ -36,7 +36,7 @@ exports.post = (req, res) => {
         }
     }
     //  data processing
-    let { phrase, author, photograph } = req.body
+    let { phrase, author, photograph, image_url } = req.body
 
     const posted_in = Date.now()
     const id = Number(data.phrases.length + 1)
@@ -46,7 +46,8 @@ exports.post = (req, res) => {
         phrase,
         author,
         photograph,
-        posted_in
+        posted_in,
+        image_url
     })
 
     fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err) {
@@ -116,4 +117,21 @@ exports.delete = (req, res) => {
 
         return res.redirect('/phrases')
     })
+}
+
+// phraseimage
+exports.phraseimage = (req, res) => {
+    // req.params.id=/:id
+    const { id } = req.params;
+
+    const foundphrase = data.phrases.find((phrase) => {
+        return phrase.id == id
+    })
+    if (!foundphrase) return res.send("phrase not found")
+
+    const phrases = {
+        ...foundphrase,
+        "posted_in": new Intl.DateTimeFormat('pt-BR').format(foundphrase.posted_in)
+    }
+    return res.render(`phrases/phraseimage`, { phrases })
 }
