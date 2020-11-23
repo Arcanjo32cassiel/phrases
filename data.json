@@ -1,44 +1,50 @@
 {
-  "phrases": [
-    {
-      "id": "1",
-      "phrase": "Cada nova geração de computadores desmoraliza as antecedentes e seus criadores.",
-      "author": " Carlos Drummond de Andrade ",
-      "posted_in": 1605813371395,
-      "keyword": "geração",
-      "image_url": "https://images.unsplash.com/photo-1605947464626-cbb0f72ee82d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      "id": "2",
-      "phrase": "Enquanto a filosofia que declara uma raça superior e outra inferior não for finalmente e permanentemente desacreditada e abandonada; enquanto não deixarem de existir cidadãos de primeira e segunda categoria de qualquer nação; enquanto a cor da pele de uma pessoa for mais importante que a cor dos seus olhos; enquanto não forem garantidos a todos por igual os direitos humanos básicos, sem olhar a raças, até esse dia, os sonhos de paz duradoura, cidadania mundial e governo de uma moral internacional irão continuar a ser uma ilusão fugaz, a ser perseguida, mas nunca alcançada.",
-      "author": "Haile Selassie ",
-      "posted_in": 1605813663813,
-      "keyword": "filosofia, raça, perseguida",
-      "image_url": "https://images.unsplash.com/photo-1605964870002-7aca0d4d6e97?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      "id": "3",
-      "phrase": "Adão, o primeiro espoliado - e no próprio corpo.",
-      "author": "Carlos Drummond",
-      "posted_in": 1605813988658,
-      "keyword": "espoliado, Adão",
-      "image_url": "https://images.unsplash.com/photo-1606015218098-77835ec98075?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      "id": "4",
-      "phrase": "O amor não se vê com os olhos mas com o coração.",
-      "author": "William Shakespeare",
-      "posted_in": 1605876797829,
-      "keyword": "Amor, olhos",
-      "image_url": "https://images.unsplash.com/photo-1605976857294-4b925007560e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      "id": "5",
-      "phrase": "Aquilo que se faz por amor está sempre além do bem e do mal.",
-      "author": "Friedrich Nietzsche",
-      "posted_in": 1605892495820,
-      "keyword": "por amor,  Aquilo",
-      "image_url": "https://images.unsplash.com/photo-1606005645167-918170eb1fc0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60"
-    }
-  ]
+    "phrases": [{
+            "id": "2",
+            "phrase": "Enquanto a filosofia que declara uma raça superior e outra inferior não for finalmente e permanentemente desacreditada e abandonada; enquanto não deixarem de existir cidadãos de primeira e segunda categoria de qualquer nação; enquanto a cor da pele de uma pessoa for mais importante que a cor dos seus olhos; enquanto não forem garantidos a todos por igual os direitos humanos básicos, sem olhar a raças, até esse dia, os sonhos de paz duradoura, cidadania mundial e governo de uma moral internacional irão continuar a ser uma ilusão fugaz, a ser perseguida, mas nunca alcançada.",
+            "author": "Haile Selassie ",
+            "posted_in": 1605813663813,
+            "keyword": "filosofia, raça, perseguida",
+            "image_url": "https://images.unsplash.com/photo-1605964870002-7aca0d4d6e97?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": "3",
+            "phrase": "Adão, o primeiro espoliado - e no próprio corpo.",
+            "author": "Carlos Drummond",
+            "posted_in": 1605813988658,
+            "keyword": "espoliado, Adão",
+            "image_url": "https://images.unsplash.com/photo-1606015218098-77835ec98075?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": "4",
+            "phrase": "O amor não se vê com os olhos mas com o coração.",
+            "author": "William Shakespeare",
+            "posted_in": 1605876797829,
+            "keyword": "Amor, olhos",
+            "image_url": "https://images.unsplash.com/photo-1605976857294-4b925007560e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": "5",
+            "phrase": "Aquilo que se faz por amor está sempre além do bem e do mal.",
+            "author": "Friedrich Nietzsche",
+            "posted_in": 1605892495820,
+            "keyword": "por amor,  Aquilo",
+            "image_url": "https://images.unsplash.com/photo-1606005645167-918170eb1fc0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 6,
+            "phrase": "Lutar pelo amor é bom, mas alcançá-lo sem luta é melhor.",
+            "author": "William Shakespeare",
+            "posted_in": 1606151586332,
+            "image_url": "https://images.unsplash.com/photo-1605976857294-4b925007560e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": "7",
+            "phrase": "Você não consegue ligar os pontos olhando pra frente; você só consegue ligá-los olhando pra trás. Então você tem que confiar que os pontos se ligarão algum dia no futuro. Você tem que confiar em algo – seu instinto, destino, vida, carma, o que for. Esta abordagem nunca me desapontou, e fez toda diferença na minha vida.",
+            "author": "Steve Jobs",
+            "posted_in": 1606154292517,
+            "image_url": "data:image/jpeg;base64,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",
+            "keyword": ""
+        }
+    ]
 }
