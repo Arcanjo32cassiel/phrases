@@ -29,7 +29,7 @@
   
  ### <p id='functionalities'>🖥 Funcionalidades</p>
 
-### Phrase há 4 Funcionalidades  :
+### Phrase há 3 Funcionalidades até o momento :
 
 <br/>
 
