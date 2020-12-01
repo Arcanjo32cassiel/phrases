@@ -13,11 +13,15 @@
        <nav>
             <ul class="links">
                 <li><a href="/" class="active">Phrases</a></li>
-                {# <li><a href="/addphrases">Colection</a></li> #}
             </ul>
        </nav>
+       <div class="input-filter">
+       <input type="text" name="" id="inputfilter" placeholder="Buscar por autor, palavra-chave...">
+       </div>
     </header>
-
+<script src="../filter.js"></script>
+{# <script src="./../data.json"></script> #}
+{# <script src=".././data.json"></script> #}
     {%block content %}
     
     {%endblock%}

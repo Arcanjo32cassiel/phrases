@@ -22,7 +22,14 @@ header {
     width: 100%;
     padding: 32px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* position: fixed; */
+}
+
+header .input-filter {
+    margin-left: 10rem;
 }
 
 nav .links {
@@ -282,4 +289,24 @@ a.edit {
 .authorphraseimage {
     font-size: 1rem;
     font-weight: bold;
+}
+
+@media (max-width:618px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    header .input-filter {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:362px) {
+    .thought-card .content .content_child {
+        /* padding: 0 10px; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
 }
