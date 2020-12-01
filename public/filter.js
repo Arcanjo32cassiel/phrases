@@ -1,13 +1,19 @@
-// const dataphrases = new Request('data.json')
+const inputfilter = document.getElementById("inputfilter");
 
-const dataparse = JSON.parse('data.json')
+// FILTRAGEM
+inputfilter.addEventListener('input', event => {
+    const thoughtcards = document.querySelectorAll("#thought_card")
 
-console.log(dataparse[0])
+    const inputvalue = event.target.value.toLocaleUpperCase()
 
+    thoughtcards.forEach(phrasecard => {
+        const textphrase = phrasecard.querySelector('.phrase').textContent.toLocaleUpperCase()
+        const nameauthor = phrasecard.querySelector('.author').textContent.toLocaleUpperCase()
 
-// const getposts = async() => {
-//     const response = await fetch(dataparse)
-
-//     console.log(response)
-// }
-// getposts()
+        if (textphrase.includes(inputvalue) || nameauthor.includes(inputvalue)) {
+            phrasecard.style.display = 'flex'
+            return
+        }
+        phrasecard.style.display = 'none'
+    })
+})
