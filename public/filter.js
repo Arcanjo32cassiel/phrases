@@ -11,9 +11,10 @@ inputfilter.addEventListener('input', event => {
         const nameauthor = phrasecard.querySelector('.author').textContent.toLocaleUpperCase()
 
         if (textphrase.includes(inputvalue) || nameauthor.includes(inputvalue)) {
-            phrasecard.style.display = 'flex'
+            phrasecard.style.display = 'block'
             return
         }
         phrasecard.style.display = 'none'
+            // document.getElementById('h1').innerHTML = inputvalue
     })
 })
