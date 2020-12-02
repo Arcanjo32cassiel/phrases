@@ -287,6 +287,18 @@ a.edit {
     font-weight: bold;
 }
 
+.footer {
+    background-color: var(--secundary-color);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: .7rem;
+    font-weight: bold;
+    color: white;
+}
+
 @media (max-width:618px) {
     header {
         display: flex;
