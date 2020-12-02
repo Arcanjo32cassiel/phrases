@@ -36,18 +36,19 @@ exports.post = (req, res) => {
         }
     }
     //  data processing
-    let { phrase, author, photograph, image_url } = req.body
+    let { phrase, author, photograph, image_url, keyword } = req.body
 
     const posted_in = Date.now()
     const id = Number(data.phrases.length + 1)
         // deconstruction
-    data.phrases.push({
+    data.phrases.unshift({
         id,
         phrase,
         author,
         photograph,
         posted_in,
-        image_url
+        image_url,
+        keyword
     })
 
     fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err) {

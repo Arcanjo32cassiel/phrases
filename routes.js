@@ -9,6 +9,10 @@ routes.get('/', function(req, res) {
 routes.get('/phrases/addphrase', function(req, res) {
     return res.render('phrases/addphrase')
 })
+routes.get('/phrases/filter', function(req, res) {
+    return res.render('phrases/filter')
+})
+
 routes.get('/phrases/:id/phraseimage', phrases.phraseimage)
 routes.get('/phrases', phrases.index)
 routes.get('/phrases/:id/edit', phrases.edit)
