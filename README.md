@@ -18,13 +18,15 @@
     npm start
     
  ```
-  <!--
-  Imagem:
- <div align='center'>
 
-  <img src='./github/' width='300'/>
+  
+  
+  
+  ## 🎥 Imagens
+ <div align='center'>
+  <img src='./.github/phrasefinality.gif' width='900' height='600' />
   </div>
-  -->
+  
   
   
  ### <p id='functionalities'>🖥 Funcionalidades</p>
