@@ -1,7 +1,39 @@
 {
   "phrases": [
     {
-      "id": 13,
+      "id": 17,
+      "phrase": "Apressa-te a viver bem e pensa que cada dia é, por si só, uma vida.",
+      "author": "Sêneca",
+      "posted_in": 1607001349035,
+      "image_url": "https://images.unsplash.com/photo-1531711886005-d5f731df5846?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "keyword": "Apressa-te"
+    },
+    {
+      "id": 16,
+      "phrase": "Aprenda como se você fosse viver para sempre. Viva como se você fosse morrer amanhã.",
+      "author": "Santo Isidoro de Sevilha",
+      "posted_in": 1606999635710,
+      "image_url": "https://images.unsplash.com/photo-1564572681888-6d02eed77008?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=889&q=80",
+      "keyword": "Viver, morrer, viva, amanhã"
+    },
+    {
+      "id": 15,
+      "phrase": "Não viva para que a sua presença seja notada, mas para que a sua falta seja sentida.",
+      "author": "Bob Marley",
+      "posted_in": 1606996523476,
+      "image_url": "https://images.unsplash.com/photo-1496459169807-866e74594fa8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60",
+      "keyword": "vida, notada"
+    },
+    {
+      "id": "14",
+      "phrase": "À DESCOBERTA DO AMOR\r\n\r\nEnsaia um sorriso\r\ne oferece-o a quem não teve nenhum.\r\nAgarra um raio de sol\r\ne desprende-o onde houver noite.\r\nDescobre uma nascente\r\ne nela limpa quem vive na lama.\r\nToma uma lágrima\r\ne pousa-a em quem nunca chorou.\r\nGanha coragem\r\ne dá-a a quem não sabe lutar.\r\nInventa a vida\r\ne conta-a a quem nada compreende.\r\nEnche-te de esperança\r\ne vive á sua luz.\r\nEnriquece-te de bondade\r\ne oferece-a a quem não sabe dar.\r\nVive com amor\r\ne fá-lo conhecer ao Mundo.",
+      "author": "Mahatma Gandhi",
+      "posted_in": 1606993729889,
+      "image_url": "https://images.unsplash.com/photo-1606922722933-550af9f7e4de?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "keyword": "vida, Mundo, sorriso "
+    },
+    {
+      "id": "13",
       "phrase": "Onde o amor impera, não há desejo de poder; e onde o poder predomina, há falta de amor. Um é a sombra do outro.",
       "author": "Carl Jung",
       "posted_in": 1606920181178,
