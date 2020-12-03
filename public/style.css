@@ -20,35 +20,49 @@ body {
 header {
     background-color: var(--secundary-color);
     width: 100%;
-    padding: 32px;
-    text-align: center;
+    height: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* position: fixed; */
+    position: fixed;
 }
 
-header .input-filter {
-    margin-left: 10rem;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
 }
 
-nav .links {
+nav #inputfilter {
+    /* width: 100%; */
+    height: 38px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    padding: 3px 10px;
+}
+
+.buttonadd {
+    color: white;
+    text-decoration: none;
+    width: 7rem;
+    background-color: #00ce71;
+    height: 2.5rem;
+    top: 95px;
+    float: right;
     display: flex;
     justify-content: center;
-}
-
-nav .links li+li {
-    margin-left: 32px;
-}
-
-nav .links li {
-    font-size: 22px;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 nav .links a {
-    text-decoration: none;
-    color: #3b3b3b;
     position: relative;
+    text-decoration: none;
 }
 
 nav .links li a.active {
@@ -79,7 +93,7 @@ nav .links a:hover::after {
 /* phraseList */
 
 .phraseList {
-    padding: 1.5rem 1rem;
+    padding: 4rem 1rem;
 }
 
 
@@ -141,7 +155,7 @@ nav .links a:hover::after {
 
 .phraseform {
     background: #3174a0;
-    margin: 30px 4%;
+    margin: 115px 4% 3rem;
     border-radius: 15px;
     box-shadow: 0px 2px 3px 2.5px rgba(0, 0, 0, 0.4);
 }
@@ -173,8 +187,11 @@ textarea {
     font-weight: bold;
 }
 
-input[type=text],
-input[type=url] {
+
+/* Input create */
+
+.input-text,
+.input-url {
     width: 100%;
     height: 38px;
     border-radius: 5px;
@@ -184,6 +201,9 @@ input[type=url] {
     border: none;
     padding: 3px 10px;
 }
+
+
+/*  */
 
 .phraseform button[type=submit] {
     width: 50%;
@@ -245,23 +265,6 @@ a.edit {
     background-color: #26b977;
 }
 
-.buttonadd {
-    color: white;
-    text-decoration: none;
-    width: 6.5rem;
-    background-color: #00ce71;
-    height: 2.5rem;
-    margin: 1rem 2rem;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    cursor: pointer;
-    position: absolute;
-    right: -20px;
-}
-
 .phraseimage {
     width: 100%;
     height: 400px;
@@ -294,18 +297,40 @@ a.edit {
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: .7rem;
+    padding: .4rem;
     font-weight: bold;
     color: white;
 }
 
-@media (max-width:618px) {
+@media (max-width:670px) {
     header {
-        display: flex;
-        flex-direction: column;
+        height: 8rem;
+        /* padding-right: 4rem; */
     }
-    header .input-filter {
-        margin-left: 0;
+    nav #inputfilter {
+        width: 100%;
+    }
+    nav {
+        display: grid;
+    }
+    .links {
+        grid-area: linkphrase;
+    }
+    #inputfilter {
+        grid-area: inputfilter;
+    }
+    .linksbuttonadd {
+        grid-area: linksbuttonadd
+    }
+    nav {
+        grid-template-areas: "linkphrase linksbuttonadd" "inputfilter inputfilter";
+        gap: 1rem;
+    }
+    .phraseform {
+        margin-top: 11rem;
+    }
+    .phraseList {
+        padding-top: 8rem;
     }
 }
 

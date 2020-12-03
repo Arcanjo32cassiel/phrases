@@ -1,91 +1,108 @@
 {
-    "phrases": [{
-            "id": 11,
-            "phrase": "Sejam as leis claras, uniformes e precisas, porque interpretá-las, quase sempre, é o mesmo que corrompê-las.",
-            "author": "Voltaire",
-            "posted_in": 1606914335413,
-            "image_url": "https://images.unsplash.com/photo-1606752395256-d6d957afcf3d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
-            "keyword": "leis, claras, precisas"
-        },
-        {
-            "id": 10,
-            "phrase": "Triste época! É mais fácil desintegrar um átomo do que um preconceito.",
-            "author": "Albert Einstein",
-            "posted_in": 1606913776803,
-            "image_url": "https://images.unsplash.com/photo-1606755910531-f88297256a0a?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2OHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
-            "keyword": "época, desintegrar, átomo"
-        },
-        {
-            "id": 9,
-            "phrase": "É fazendo que se aprende a fazer aquilo que se deve aprender a fazer.",
-            "author": "Aristóteles",
-            "posted_in": 1606912717369,
-            "image_url": "https://images.unsplash.com/photo-1606755912036-dd6eed69552d?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2MXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
-            "keyword": "aprender, aprende"
-        },
-        {
-            "id": 8,
-            "phrase": "Não corrigir nossas falhas é o mesmo que cometer novos erros.",
-            "author": "Confúcio",
-            "posted_in": 1606910744197,
-            "image_url": "https://images.unsplash.com/photo-1606884844577-d9b593f37249?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
-            "keyword": "corrigir, falhas, erros"
-        },
-        {
-            "id": 7,
-            "phrase": "De todos os animais selvagens, o homem jovem é o mais difícil de domar.",
-            "author": "Platão ",
-            "posted_in": 1606910632892,
-            "image_url": "https://images.unsplash.com/photo-1588354924596-71b1cb1393fb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8am92ZW18ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
-            "keyword": "selvagens, domar, jovem"
-        },
-        {
-            "id": 6,
-            "phrase": "Até cortar os próprios defeitos pode ser perigoso. Nunca se sabe qual é o defeito que sustenta nosso edifício inteiro.",
-            "author": "Clarice Lispector",
-            "posted_in": 1606910486221,
-            "image_url": "https://images.unsplash.com/photo-1606755655775-e43dc21b5012?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
-            "keyword": "próprios, perigoso, sustenta"
-        },
-        {
-            "id": 5,
-            "phrase": "Para ver muita coisa é preciso despregar os olhos de si mesmo",
-            "author": "Friedrich Nietzsche",
-            "posted_in": 1606910305343,
-            "image_url": "https://images.unsplash.com/photo-1592915130042-318e6544b347?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
-            "keyword": "despregar, olhos"
-        },
-        {
-            "id": "4",
-            "phrase": "Quando vires um homem bom, tenta imitá-lo; quando vires um homem mau, examina-te a ti mesmo.",
-            "author": "Confúcio",
-            "posted_in": 1606909893617,
-            "image_url": "https://images.unsplash.com/photo-1606822366843-ddbe57506e98?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
-            "keyword": "homem, bom, mal"
-        },
-        {
-            "id": 3,
-            "phrase": "Tente mover o mundo – o primeiro passo será mover a si mesmo.",
-            "author": "Platão",
-            "posted_in": 1606909751069,
-            "image_url": "https://images.unsplash.com/photo-1606827728563-d08486ce78c3?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
-            "keyword": "mover, mundo"
-        },
-        {
-            "id": 1,
-            "phrase": "\"A vida é uma peça de teatro que não permite ensaios. Por isso, cante, chore, dance, ria e viva intensamente, antes que a cortina se feche e a peça termine sem aplausos.\"",
-            "author": "Desconhecido",
-            "posted_in": 1606860465611,
-            "image_url": "https://images.unsplash.com/photo-1500021804447-2ca2eaaaabeb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8aW1hZ2VzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            "keyword": "vida, peça, teatro, chore, intensamente, aplausos "
-        },
-        {
-            "id": 2,
-            "phrase": "Renda-se, como eu me rendi. Mergulhe no que você não conhece como eu mergulhei. Não se preocupe em entender, viver ultrapassa qualquer entendimento.",
-            "author": "Clarice Lispector",
-            "posted_in": 1606860560600,
-            "image_url": "https://images.unsplash.com/photo-1528219089976-22adb38bffa4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGltYWdlc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            "keyword": "rendi, Mergulhe, mergulhei, ultrapassa, entendimento, entendimento "
-        }
-    ]
+  "phrases": [
+    {
+      "id": 13,
+      "phrase": "Onde o amor impera, não há desejo de poder; e onde o poder predomina, há falta de amor. Um é a sombra do outro.",
+      "author": "Carl Jung",
+      "posted_in": 1606920181178,
+      "image_url": "https://images.unsplash.com/photo-1606676366792-ef4924fefb82?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80",
+      "keyword": "impera, desejo, poder"
+    },
+    {
+      "id": "12",
+      "phrase": "Há sempre alguma loucura no amor. Mas há sempre um pouco de razão na loucura.",
+      "author": "Friedrich Nietzsche",
+      "posted_in": 1606919851138,
+      "image_url": "https://images.unsplash.com/photo-1606830079880-e90bd08e9a98?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "keyword": "loucura, amor, razão"
+    },
+    {
+      "id": 11,
+      "phrase": "Sejam as leis claras, uniformes e precisas, porque interpretá-las, quase sempre, é o mesmo que corrompê-las.",
+      "author": "Voltaire",
+      "posted_in": 1606914335413,
+      "image_url": "https://images.unsplash.com/photo-1606752395256-d6d957afcf3d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "keyword": "leis, claras, precisas"
+    },
+    {
+      "id": 10,
+      "phrase": "Triste época! É mais fácil desintegrar um átomo do que um preconceito.",
+      "author": "Albert Einstein",
+      "posted_in": 1606913776803,
+      "image_url": "https://images.unsplash.com/photo-1606755910531-f88297256a0a?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2OHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+      "keyword": "época, desintegrar, átomo"
+    },
+    {
+      "id": 9,
+      "phrase": "É fazendo que se aprende a fazer aquilo que se deve aprender a fazer.",
+      "author": "Aristóteles",
+      "posted_in": 1606912717369,
+      "image_url": "https://images.unsplash.com/photo-1606755912036-dd6eed69552d?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2MXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+      "keyword": "aprender, aprende"
+    },
+    {
+      "id": 8,
+      "phrase": "Não corrigir nossas falhas é o mesmo que cometer novos erros.",
+      "author": "Confúcio",
+      "posted_in": 1606910744197,
+      "image_url": "https://images.unsplash.com/photo-1606884844577-d9b593f37249?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+      "keyword": "corrigir, falhas, erros"
+    },
+    {
+      "id": 7,
+      "phrase": "De todos os animais selvagens, o homem jovem é o mais difícil de domar.",
+      "author": "Platão ",
+      "posted_in": 1606910632892,
+      "image_url": "https://images.unsplash.com/photo-1588354924596-71b1cb1393fb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8am92ZW18ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+      "keyword": "selvagens, domar, jovem"
+    },
+    {
+      "id": 6,
+      "phrase": "Até cortar os próprios defeitos pode ser perigoso. Nunca se sabe qual é o defeito que sustenta nosso edifício inteiro.",
+      "author": "Clarice Lispector",
+      "posted_in": 1606910486221,
+      "image_url": "https://images.unsplash.com/photo-1606755655775-e43dc21b5012?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+      "keyword": "próprios, perigoso, sustenta"
+    },
+    {
+      "id": 5,
+      "phrase": "Para ver muita coisa é preciso despregar os olhos de si mesmo",
+      "author": "Friedrich Nietzsche",
+      "posted_in": 1606910305343,
+      "image_url": "https://images.unsplash.com/photo-1592915130042-318e6544b347?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+      "keyword": "despregar, olhos"
+    },
+    {
+      "id": "4",
+      "phrase": "Quando vires um homem bom, tenta imitá-lo; quando vires um homem mau, examina-te a ti mesmo.",
+      "author": "Confúcio",
+      "posted_in": 1606909893617,
+      "image_url": "https://images.unsplash.com/photo-1606822366843-ddbe57506e98?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+      "keyword": "homem, bom, mal"
+    },
+    {
+      "id": 3,
+      "phrase": "Tente mover o mundo – o primeiro passo será mover a si mesmo.",
+      "author": "Platão",
+      "posted_in": 1606909751069,
+      "image_url": "https://images.unsplash.com/photo-1606827728563-d08486ce78c3?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+      "keyword": "mover, mundo"
+    },
+    {
+      "id": "1",
+      "phrase": "\"A vida é uma peça de teatro que não permite ensaios. Por isso, cante, chore, dance, ria e viva intensamente, antes que a cortina se feche e a peça termine sem aplausos.\"",
+      "author": "Desconhecido",
+      "posted_in": 1606860465611,
+      "image_url": "https://images.unsplash.com/photo-1500021804447-2ca2eaaaabeb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8aW1hZ2VzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "keyword": "vida, peça, teatro, chore, intensamente, aplausos"
+    },
+    {
+      "id": "2",
+      "phrase": "Renda-se, como eu me rendi. Mergulhe no que você não conhece como eu mergulhei. Não se preocupe em entender, viver ultrapassa qualquer entendimento.",
+      "author": "Clarice Lispector",
+      "posted_in": 1606860560600,
+      "image_url": "https://images.unsplash.com/photo-1528219089976-22adb38bffa4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGltYWdlc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "keyword": "rendi, Mergulhe, mergulhei, ultrapassa, entendimento "
+    }
+  ]
 }
