@@ -20,6 +20,4 @@ nunjucks.configure("views", {
 
 
 // ouvindo uma porta
-server.listen(5000, function() {
-    console.log("server is running")
-})
+server.listen(process.env.PORT || 5000)
