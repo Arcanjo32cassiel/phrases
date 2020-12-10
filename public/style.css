@@ -31,7 +31,19 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 70%;
+    width: 80%;
+}
+
+nav .linksbuttonadd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .linksbuttonadd .my_account {
+    text-decoration: none;
+    color: white;
+    margin-left: 1.4rem;
 }
 
 nav #inputfilter {
