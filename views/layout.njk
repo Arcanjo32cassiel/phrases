@@ -21,19 +21,25 @@
              
             <ul class="linksbuttonadd">
                 <li><a class="buttonadd" href="/phrases/addphrase">ADD PHRASE</a></li>
-                <li><a href="/accounts" class="my_account"><i class="fas fa-user-circle"></i>Minha conta</a> </li>
+                <li><span href="/accounts" id="my_account" class="my_account"><i class="fas fa-user-circle"></i></span> </li>
             </ul>
 
        </nav>
     </header>
 
     <h1 id ='h1'></h1>
-<script src="../filter.js"></script>
+<div class="modalaccount" id="modalaccount">
+    <h3>Olá, Arcanjo</h3><hr>
+    <ul>
+      <li><a href=""><i class="fas fa-heart"></i>Minha coleção</a></li>
+    </ul>
+</div>
 
     {%block content %}
     {%endblock%}
   <footer class="footer" >
     <p>Com ❤️ Arcanjo Cassiel Ferriera Nogueira</p>
   </footer>
+<script src="../index.js"></script>
 </body>
 </html>

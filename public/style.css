@@ -44,6 +44,7 @@ nav .linksbuttonadd .my_account {
     text-decoration: none;
     color: white;
     margin-left: 1.4rem;
+    cursor: pointer;
 }
 
 nav #inputfilter {
@@ -139,6 +140,51 @@ nav .links a:hover::after {
     font-size: .75rem;
     font-weight: bold;
     padding: 1rem;
+}
+
+
+/* modalaccount */
+
+.modalaccount {
+    position: absolute;
+    background-color: #e2d9d9;
+    width: 16rem;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    right: 7.9rem;
+    top: 4rem;
+    margin-top: 1rem;
+    border: 2px solid #ccc;
+}
+
+.hidden {
+    display: flex;
+}
+
+.modalaccount h3 {
+    text-align: center;
+    border-bottom: 1px solid #2b2a2a;
+    width: 100%;
+    padding: .1rem 0;
+}
+
+.modalaccount li {
+    text-align: center;
+    padding: .1rem 0;
+    text-decoration: none;
+    padding: .5rem 0;
+}
+
+.modalaccount li a {
+    color: #0a0a0a9a;
+    text-decoration: none;
+    width: 100%;
+}
+
+.modalaccount li:hover a {
+    text-decoration: underline;
 }
 
 @keyframes up {
